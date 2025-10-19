@@ -1,0 +1,2 @@
+:root{--ardurra-blue:#036;--ardurra-light:#f6f8fb;--ardurra-gray:#6c757d}.ardurra-navbar{background:#036;background:var(--ardurra-blue)}.hero{background:linear-gradient(90deg,#00336614,#00336608);padding:2rem}.hero h1{color:#036;color:var(--ardurra-blue);font-weight:700}.hero-image{align-items:center;background:#e9f0fb;display:flex;justify-content:center;min-height:180px}.card{border:none}@media (max-width:767px){.hero{text-align:center}.hero-image{margin-top:1rem}}.logo{vertical-align:middle}
+/*# sourceMappingURL=main.31fc50a3.css.map*/
