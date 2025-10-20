@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ArdurraWeb/static/css/main.31fc50a3.css",
-    "main.js": "/ArdurraWeb/static/js/main.6b853235.js",
+    "main.css": "/ArdurraWeb/static/css/main.0410a2b2.css",
+    "main.js": "/ArdurraWeb/static/js/main.46745bba.js",
     "index.html": "/ArdurraWeb/index.html",
-    "main.31fc50a3.css.map": "/ArdurraWeb/static/css/main.31fc50a3.css.map",
-    "main.6b853235.js.map": "/ArdurraWeb/static/js/main.6b853235.js.map"
+    "main.0410a2b2.css.map": "/ArdurraWeb/static/css/main.0410a2b2.css.map",
+    "main.46745bba.js.map": "/ArdurraWeb/static/js/main.46745bba.js.map"
   },
   "entrypoints": [
-    "static/css/main.31fc50a3.css",
-    "static/js/main.6b853235.js"
+    "static/css/main.0410a2b2.css",
+    "static/js/main.46745bba.js"
   ]
 }
