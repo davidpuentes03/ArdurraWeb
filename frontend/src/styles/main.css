@@ -1,0 +1,50 @@
+/* Estilos principales inspirados en la paleta de Ardurra */
+:root{
+  --ardurra-blue:#003366;
+  --ardurra-light:#f6f8fb;
+  --ardurra-gray:#6c757d;
+}
+
+body {
+  padding-top: 100px;
+}
+
+.ardurra-navbar{
+  background: var(--ardurra-blue);
+  border-bottom: 10px solid var(--ardurra-light);
+}
+
+.hero{
+  background: linear-gradient(90deg, rgba(0,51,102,0.08), rgba(0,51,102,0.03));
+  padding: 2rem;
+}
+.hero h1{ color: var(--ardurra-blue); font-weight:700; }
+.hero-image{ background: #e9f0fb; min-height:180px; display:flex; align-items:center; justify-content:center;}
+.card{ border: none; }
+@media (max-width:767px){ .hero { text-align:center; } .hero-image{ margin-top:1rem; } }
+.logo { vertical-align:middle; }
+
+/* Texto Ardurra en Navbar */
+.logo-text {
+  font-size: 2rem;          /* Ajuste de tamaño de texto */
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.logo-text:hover {
+  color: #a8adb3  !important;           /* tono claro al pasar el cursor */
+}
+
+/* Enlaces del menú */
+.navbar .nav-link {
+  color: var(--ardurra-light) !important;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  color: #a8adb3 !important;
+}
