@@ -1,0 +1,28 @@
+.registro-container {
+  width: 500px; /* Aumento el ancho del formulario para hacerlo más amplio */
+  margin: 70px auto; /* Centro el contenedor horizontalmente */
+  padding: 30px; /* Agrego espacio interno para separar los elementos del borde */
+  border: 2px solid #003366; /* Doy un borde azul oscuro para mantener el estilo de la marca */
+  border-radius: 10px; /* Redondeo las esquinas para un diseño más moderno */
+  text-align: center; /* Centro todo el contenido del formulario */
+  background-color: #f5f5f5; /* Aplico un fondo gris claro para resaltar el formulario */
+}
+
+/* Estilos generales para los campos de entrada del formulario de registro */
+.registro-form input {
+  width: 100%; /* Hago que el input ocupe casi todo el ancho del contenedor */
+  margin: 12px 0; /* Dejo espacio entre cada campo */
+  padding: 10px; /* Aumento el área interna para que el texto se vea más cómodo */
+  text-align: center; /* Centro el texto dentro del campo */
+  border: 1px solid #ccc; /* Agrego un borde gris suave */
+  border-radius: 5px; /* Redondeo los bordes del input */
+  font-size: 16px; /* Ajusto el tamaño de la fuente para mejor legibilidad */
+  transition: all 0.2s ease-in-out; /* Aplico una transición suave en los cambios de estilo */
+}
+
+/* Efecto visual cuando el usuario selecciona un campo */
+.registro-form input:focus {
+  outline: none; /* Quito el borde azul por defecto del navegador */
+  border-color: #003366; /* Cambio el color del borde al azul corporativo */
+  box-shadow: 0 0 4px #003366; /* Agrego un resplandor azul alrededor del campo */
+}

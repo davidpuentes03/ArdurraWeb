@@ -1,0 +1,29 @@
+/* Estilos del contenedor principal del formulario de login */
+.login-container {
+  width: 600px; /* Manejar el ancho */
+  margin: 100px auto; /* Centro el formulario con un poco más de espacio arriba */
+  padding: 30px; /* Espacio interno igual que en el registro */
+  border: 2px solid #003366; /* Mismo borde azul oscuro */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #f5f5f5; /* Fondo gris claro */
+  text-align: center; /* Centro todo el contenido */
+}
+
+/* Estilos generales para los campos de entrada del formulario de login */
+.login-form input {
+  width: 90%; /* Ancho similar al de registro */
+  margin: 12px 0; /* Espacio entre campos */
+  padding: 10px; /* Espacio interno para mejor visualización */
+  text-align: center; /* Centro el texto del input */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de texto legible */
+  transition: all 0.2s ease-in-out; /* Transición suave al cambiar de estado */
+}
+
+/* Efecto visual cuando el usuario selecciona un campo en el login */
+.login-form input:focus {
+  outline: none; /* Quito el borde por defecto */
+  border-color: #003366; /* Borde azul al enfocar */
+  box-shadow: 0 0 4px #003366; /* Sombra azul para destacar el campo activo */
+}
